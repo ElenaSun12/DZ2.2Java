@@ -6,7 +6,7 @@ public class Main {
         int payment = 1212;
 
         int percent;
-        if (payment >= 1000) {
+        if (payment > 1000) {
             percent = 1;
         } else {
             percent = 0;
